@@ -4,60 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
-        <img src="/img/elixir-white-logo.png" alt="Elixir logo" class="logo">
-        <ul class="menu">
-            <li><a href="#info">About</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#cta">Get Started</a></li>
-        </ul>
+        <div class="container">
+            <img src="/img/elixir-white-logo.png" alt="Elixir logo" class="logo" href="/">
+            <ul class="menu">
+                <li><a href="#info">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#cta">Get Started</a></li>
+            </ul>
+        </div>
     </nav>
 
     <section class="hero" id="hero">
-        <div class="hero-content">
-            <h1>This Website is Awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <a href="#cta" class="main-button">Sign Up</a>
-        </div>
-        <div class="hero-image-wrapper">
-            <img src="/img/lance-anderson-QdAAasrZhdk-unsplash.jpg" alt="White Building Design" class="hero-image">
+        <div class="container">
+            <div class="hero-content">
+                <h1>This Website is Awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <a href="#cta" class="main-button">Sign Up</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="/img/lance-anderson-QdAAasrZhdk-unsplash.jpg" alt="White Building Design" class="hero-image">
+            </div>
         </div>
     </section>
 
     <section class="info" id="info">
-        <h2>Some Random Information.</h2>
-        <div class="info-wrapper">
-            <div class="info-container">
-                <img src="/img/01-jimmy-chang-ACt8ycSzpdE-unsplash.jpg" alt="Blue Building" class="info-image">
-            <p>This is some subtext under an illustration or image</p>
-            </div>
-            <div class="info-container">
-                <img src="/img/02-simone-hutsch-sx43iZU9Y5U-unsplash.jpg" alt="Clean Architecture" class="info-image">
+        <div class="container">
+            <h2>Some Random Information.</h2>
+            <div class="info-wrapper">
+                <div class="info-container">
+                    <img src="/img/01-jimmy-chang-ACt8ycSzpdE-unsplash.jpg" alt="Blue Building" class="info-image">
                 <p>This is some subtext under an illustration or image</p>
-            </div>
-            <div class="info-container">
-                <img src="/img/03-hossein-nasr-PRkgENH3DOw-unsplash.jpg" alt="Red Building" class="info-image">
-                <p>This is some subtext under an illustration or image</p>
-            </div>
-            <div class="info-container">
-                <img src="/img/04-maciej-drazkiewicz-kXGI6Om_g5U-unsplash.jpg" alt="Creative Architecture Photography" class="info-image">
-                <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="info-container">
+                    <img src="/img/02-simone-hutsch-sx43iZU9Y5U-unsplash.jpg" alt="Clean Architecture" class="info-image">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="info-container">
+                    <img src="/img/03-hossein-nasr-PRkgENH3DOw-unsplash.jpg" alt="Red Building" class="info-image">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="info-container">
+                    <img src="/img/04-maciej-drazkiewicz-kXGI6Om_g5U-unsplash.jpg" alt="Creative Architecture Photography" class="info-image">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="testimonials" id="testimonials">
-
+        <div class="container">
+            <div class="testimonial-wrapper">
+                <p class="quote">This is my quote</p>
+                <p class="author">Ronnie Mbugua</p>
+            </div>
+        </div>
     </section>
 
     <section class="cta" id="cta">
-
+        <div class="container">
+            <div class="cta-container">
+                <div class="cta-wrapper">
+                    <div class="cta-content">
+                        <h3 class="cta-heading">Call to action! It's time!</h3>
+                        <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <a href="#cta" class="main-button_outlined">Sign Up</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-
+        <div class="container">
+            <p class="copyright-text">
+                Copyright © The Odin Project 2025
+            </p>
+        </div>
     </footer>
 </body>
 </html>
