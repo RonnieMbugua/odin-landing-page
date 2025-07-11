@@ -2,6 +2,12 @@
 
 A landing page from the Odin Project - Flexbox
 
+I loved the project, it allowed me to see how breaking down a task into smaller bits and dealing only with the bits step by steps allows you to make steady progress. HTML first then styling next. Deal with things section by section.
+
+I was able to apply flexbox styling, use variables, import a font, see how css cascades, work with css combinators and experiment with the color-mix() function.
+
+Credits
+
 Photo by <a href="https://unsplash.com/@photohunter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jimmy Chang</a> on <a href="https://unsplash.com/photos/white-concrete-building-during-daytime-ACt8ycSzpdE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@lanceanderson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lance Anderson</a> on <a href="https://unsplash.com/photos/white-concrete-building-QdAAasrZhdk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
